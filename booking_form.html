@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header-container">
+        <img src="image/logo_karnival_polycc_mega_2026.png" alt="Logo" class="logo">
+        <h2>KARNIVAL POLYCC MEGA 2026</h2>
+    </div>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking_form.html">Register</a>
+</nav>
+
+<section class="content">
+
+<h3>Booking Form</h3>
+
+<form class="form">
+
+    <table class="tableForm">
+
+        <tr>
+            <td>Name :</td>
+            <td>
+                <input type="text" name="name" required placeholder="Enter your name">
+            </td>
+        </tr>
+        <tr>
+            <td>IC Number :</td>
+            <td>
+                <input type="number" name="ic number" required placeholder="xxxxxx-xx-xxxx">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Age :</td>
+            <td>
+                <input type="number" name="age" required placeholder="Enter your age">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Gender :</td>
+            <td>
+                <label class="radio-item">
+                    <input type="radio" name="gender" value="Male" required>
+                    Male
+                </label>
+
+                <label class="radio-item">
+                    <input type="radio" name="gender" value="Female">
+                    Female
+                </label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Email :</td>
+            <td>
+                <input type="email" name="email" required placeholder="xxxx@gmail.com">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Phone Number :</td>
+            <td>
+                <input type="number" name="phone number" required placeholder="+60 123456789">
+            </td>
+        </tr>
+
+        <tr>
+            <td>Competition :</td>
+            <td>
+                <select name="competition" required>
+                    <option value="">--Select--</option>
+                    <option>Drone Competition</option>
+                    <option>AI Robotics</option>
+                    <option>Code Design</option>
+                    <option>Cooking</option>
+                    <option>3D Art</option>
+                </select>
+            </td>
+        </tr>
+    </table>
+
+<br>
+<br>
+        <button class="button" type="submit">Submit</button>
+  
+</form>
+</section>
+
+<footer class="footer">
+    POLITEKNIK TUANKU SYED SIRAJUDDIN,PERLIS<br>
+    Copyright © 2026 POLYCC Mega | 
+    main : +60 175955997 | 
+    email : info@polycc.edu.my
+</footer>
+</body>
+</html>
