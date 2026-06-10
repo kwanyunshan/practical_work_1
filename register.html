@@ -1,109 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<header>
-    <div class="header-container">
-        <img src="image/logo_karnival_polycc_mega_2026.png" alt="Logo" class="logo">
-        <h2>KARNIVAL POLYCC MEGA 2026</h2>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KARNIVAL POLYCC MEGA 2026</title>
+    <link rel="stylesheet" href="jquery.mobile-1.4.5.min.css" />
+    <script src="jquery-2.1.0.min.js"></script>
+    <script src="jquery.mobile-1.4.5.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+
+    <!--Home Page-->
+    <div data-role="page" id="home">
+
+      <!--Header(Home)-->
+      <div data-role="header">
+        <table>
+          <tr>
+            <td>
+              <img
+                src="image/logo_karnival_polycc_mega_2026.png"
+                alt="Logo"
+                width="100px;">
+            </td>
+            <td><h2>KARNIVAL POLYCC MEGA 2026</h2></td>
+          </tr>
+        </table>
+
+        <!--NAVBAR(Home)-->
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#register">Register</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Content(Home)-->
+      <div data-role="content">
+        <center>
+          <img
+            src="image/banner_karnival.png"
+            alt="Banner_karnival"
+            width="70%">
+          <h3>EVENT INFORMATION</h3>
+
+          <!--do table information karnival-->
+          <table border="3">
+            <tr>
+              <th>Item</th>
+              <th>Detial</th>
+            </tr>
+            <tr>
+              <td><b>NAME</b></td>
+              <td>Karnival POLYCC Mega 2026</td>
+            </tr>
+            <tr>
+              <td><b>LOCATION</b></td>
+              <td>Politeknik Tuanku Syed Sirajuddin Field</td>
+            </tr>
+            <tr>
+              <td><b>PHONE NUMBER</b></td>
+              <td>+60 175955997</td>
+            </tr>
+            <tr>
+              <td><b>EMAIL</b></td>
+              <td>info@polycc.edu.my</td>
+            </tr>
+            <tr>
+              <td><b>COMPETITIONS</b></td>
+              <td>
+                1. Drone Competition<br />2. AI Robotics Competition<br />3.
+                Code Design Competition<br />4. Cooking Competition<br />5. 3D
+                Sketch / 3D Art Competition
+              </td>
+            </tr>
+          </table>
+        </center>
+      </div>
+
+      <!--Footer(Home)-->
+      <div data-role="footer">
+        <h4>
+          POLITEKNIK TUANKU SYED SIRAJUDDIN,PERLIS<br />Copyright &copy; 2026
+          POLYCC Mega | main : +60 175955997 | email : info@polycc.edu.my
+        </h4>
+      </div>
     </div>
-</header>
 
-<nav>
-    <a href="index.html">Home</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="register.html">Register</a>
-</nav>
+    <!--Gallery Page-->
+    <div data-role="page" id="gallery">
 
-<section class="content">
-
-<h3>Booking Form</h3>
-
-<form class="form">
-
-    <table class="tableForm">
-
-        <tr>
-            <td>Name :</td>
+      <!--Header(Gallery)-->
+      <div data-role="header">
+        <table>
+          <tr>
             <td>
-                <input type="text" name="name" required placeholder="Enter your name">
+              <img
+                src="image/logo_karnival_polycc_mega_2026.png"
+                alt="Logo"
+                width="100px;">
             </td>
-        </tr>
-        <tr>
-            <td>IC Number :</td>
+            <td><h2>KARNIVAL POLYCC MEGA 2026</h2></td>
+          </tr>
+        </table>
+
+        <!--NAVBAR(Gallery)-->
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#register">Register</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!--Content(Gallery)-->
+      <div data-role="content">
+        <center>
+            <h3>Event Gallery</h3>
+            <img src="image/drone_competition.png" alt="Image Drone Competition" width="350px;">
+            <img
+            src="image/ai_robotics_competition.png"
+            alt="Image AI Rrobotics Competition" width="353px">
+            <img
+            src="image/code_design competition.png"
+            alt="Code Design Competition" width="364px"><br>
+            <img src="image/cooking_competition.png" alt="Cooking Competition" width="350px">
+            <img
+            src="image/3d_sketch_3d_art_competition.png"
+            alt="3D Sketch/3D Art Competition" width="332px">
+        </center>
+      </div>
+
+      <!--Footer(Gallery)-->
+      <div data-role="footer">
+        <h4>
+          POLITEKNIK TUANKU SYED SIRAJUDDIN,PERLIS<br />Copyright &copy; 2026
+          POLYCC Mega | main : +60 175955997 | email : info@polycc.edu.my
+        </h4>
+      </div>
+    </div>
+
+    <!--Registation Page-->
+    <div data-role="page" id="register">
+
+      <!--Header(Registation)-->
+      <div data-role="header">
+        <table>
+          <tr>
             <td>
-                <input type="number" name="ic number" required placeholder="xxxxxx-xx-xxxx">
+              <img
+                src="image/logo_karnival_polycc_mega_2026.png"
+                alt="Logo"
+                width="100px;">
             </td>
-        </tr>
+            <td><h2>KARNIVAL POLYCC MEGA 2026</h2></td>
+          </tr>
+        </table>
 
-        <tr>
-            <td>Age :</td>
-            <td>
-                <input type="number" name="age" required placeholder="Enter your age">
-            </td>
-        </tr>
+        <!--NAVBAR(Registation)-->
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#register">Register</a></li>
+          </ul>
+        </div>
+      </div>
 
-        <tr>
-            <td>Gender :</td>
-            <td>
-                <label class="radio-item">
-                    <input type="radio" name="gender" value="Male" required>
-                    Male
-                </label>
+      <!--Content(Registation)-->
+      <div data-role="content">
+        <center>
+            <h3>Booking Form</h3>
+            <form>
+                <table>
+                    <tr>
+                        <td>Name :</td>
+                        <td>
+                            <input
+                            type="text"
+                            name="name"
+                            required
+                            placeholder="Enter your name" size="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>IC Number :</td>
+                        <td>
+                            <input
+                            type="number"
+                            name="ic_number"
+                            required
+                            placeholder="xxxxxx-xx-xxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Age :</td>
+                        <td>
+                            <input
+                            type="number"
+                            id="age"
+                            name="age"
+                            required
+                            placeholder="Enter your age">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender :</td>
+                        <td>
+                            <label>
+                                <input
+                                type="radio"
+                                name="gender"
+                                value="Male"
+                                required>Male
+                        </label>
+                        <label>
+                                <input
+                                type="radio"
+                                name="gender"
+                                value="Female">Female
+                        </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email :</td>
+                        <td>
+                            <input
+                            type="email"
+                            name="email"
+                            required
+                            placeholder="xxxx@gmail.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number :</td>
+                        <td>
+                            <input
+                            type="number"
+                            name="phone_number"
+                            required
+                            placeholder="+60 123456789">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Competition :</td>
+                        <td>
+                            <select name="competition" required>
+                                <option value="">--Select--</option>
+                                <option>Drone Competition</option>
+                                <option>AI Robotics</option>
+                                <option>Code Design</option>
+                                <option>Cooking</option>
+                                <option>3D Art</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table><br /><br />
+                <button type="submit" id="btnSubmit">Submit</button>
+            </form>
+        </center>
+      </div>
 
-                <label class="radio-item">
-                    <input type="radio" name="gender" value="Female">
-                    Female
-                </label>
-            </td>
-        </tr>
-
-        <tr>
-            <td>Email :</td>
-            <td>
-                <input type="email" name="email" required placeholder="xxxx@gmail.com">
-            </td>
-        </tr>
-
-        <tr>
-            <td>Phone Number :</td>
-            <td>
-                <input type="number" name="phone number" required placeholder="+60 123456789">
-            </td>
-        </tr>
-
-        <tr>
-            <td>Competition :</td>
-            <td>
-                <select name="competition" required>
-                    <option value="">--Select--</option>
-                    <option>Drone Competition</option>
-                    <option>AI Robotics</option>
-                    <option>Code Design</option>
-                    <option>Cooking</option>
-                    <option>3D Art</option>
-                </select>
-            </td>
-        </tr>
-    </table>
-
-<br>
-<br>
-        <button class="button" type="submit">Submit</button>
-  
-</form>
-</section>
-
-<footer class="footer">
-    POLITEKNIK TUANKU SYED SIRAJUDDIN,PERLIS<br>
-    Copyright © 2026 POLYCC Mega | 
-    main : +60 175955997 | 
-    email : info@polycc.edu.my
-</footer>
-</body>
+      <!--Footer(Registation)-->
+      <div data-role="footer">
+        <h4>
+          POLITEKNIK TUANKU SYED SIRAJUDDIN,PERLIS<br />Copyright &copy; 2026
+          POLYCC Mega | main : +60 175955997 | email : info@polycc.edu.my
+        </h4>
+      </div>
+    </div>
+  </body>
 </html>
